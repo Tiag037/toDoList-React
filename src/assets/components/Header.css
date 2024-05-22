@@ -1,0 +1,33 @@
+.header-container {
+    background: silver;
+    height: 100px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    
+    
+    padding: 10px;
+    color: rgb(218, 227, 236);
+    text-shadow: -2px 0px 22px black;
+    
+}
+
+.header-span{
+    background-color: rgb(107, 102, 96);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    animation: animSpan 1s infinite  alternate ;
+}
+
+@keyframes animSpan {
+    0%{
+        transform: none
+
+    }
+    100%{
+        transform: rotate(4deg);
+    }
+}
+
